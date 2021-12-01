@@ -26,7 +26,7 @@ public class Kayttoliittyma {
             if (komento.equals("1")) {
                 System.out.println("Arvaa kirjain!");
                 String arvattu = lukija.nextLine();
-                kirjaimet.
+                kirjaimet.add(arvattu);
             }
         }
     }
