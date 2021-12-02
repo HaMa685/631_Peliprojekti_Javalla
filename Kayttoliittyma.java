@@ -2,17 +2,18 @@
 import java.util.Scanner;
 
 public class Kayttoliittyma {
-    private Hirsipuu kirjaimet;
+    Hirsipuu kirjaimet=new Hirsipuu();
     private Scanner lukija;
-    private Tiedostonluku sana;
+    Tiedostonluku sanat=new Tiedostonluku();
 
-    public Kayttoliittyma( Hirsipuu kirjaimet, Scanner lukija, Tiedostonluku sana) {
+    public Kayttoliittyma(Scanner lukija) {
         this.lukija = lukija;
-        this.kirjaimet = kirjaimet;
-        this.sana = sana;
+        
+        
     }
 
     public void kaynnista () {
+        String sana = sanat.haeSana();
 
         while(true) {
             System.out.println("Pelataanko Hirsipuuta?");
@@ -21,9 +22,9 @@ public class Kayttoliittyma {
 
             String komento = lukija.nextLine();
 
-            if (komento.equals("x")) {
-                break;
+            if (komento.equals("x")) {                
                 System.out.println("Seuraavalla kerralla sitten!");
+                break;
             }
 
             if (komento.equals("1")) {

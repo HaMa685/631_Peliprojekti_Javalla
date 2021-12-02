@@ -5,10 +5,15 @@ import java.util.ArrayList;
 
 
 public class Tiedostonluku {
+    private ArrayList <String> sanat=new ArrayList<>();
     
 
-    public static void main(String[] args) {
-        ArrayList <String> sanat=new ArrayList<>();
+    public Tiedostonluku() {
+        this.sanat=new ArrayList<>();
+    }
+    public String haeSana() {
+        
+        
         try ( Scanner tiedostonLukija = new Scanner(Paths.get("sanalista.txt"))) {
 
             while (tiedostonLukija.hasNextLine()) {
@@ -18,11 +23,11 @@ public class Tiedostonluku {
         } catch (Exception e) {
             System.out.println("Virhe: " + e.getMessage());
 
-        }
-        int indeksi=(int) (sanat.size()*Math.random());
         
-        System.out.println(sanat.get(indeksi));
     }
-
+    int indeksi=(int) (sanat.size()*Math.random());
+    return sanat.get(indeksi);
+    
+    }
    
 }
