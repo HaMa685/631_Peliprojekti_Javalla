@@ -16,13 +16,13 @@ public class Kayttoliittyma {
         System.out.println("Pelataanko Hirsipuuta?");
        
         while(true) {           
-            System.out.println("Arvaa kirjain! (x- lopettaa pelin)");
+            System.out.println("Arvaa kirjain! ( ! - lopettaa pelin)");
             String kirjain = lukija.nextLine();
            
             kirjaimet.tarkastaTulosta(sana, kirjain);
             System.out.println();
 
-            if (kirjain.equals("x")) {                
+            if (kirjain.equals("!")) {                
                 System.out.println("Hei hei!");
                 break;
             }           
