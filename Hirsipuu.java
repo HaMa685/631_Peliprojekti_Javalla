@@ -69,19 +69,25 @@ public class Hirsipuu{
         else{    
          System.out.print("_");
         }}
-        if(sanaOk==osat.length){
-            System.out.println();
-            System.out.println("Voitit!");}
+        if(sanaOk==osat.length || vaaraArvaus==5){
+            lopeta();
+            
+}
         
 System.out.println();
 oikeaArvaus=false;
 }
 
-public boolean lopeta(){          
-    int arvaus=5;
-    if (arvaus==5){
-    return true;}
+public void lopeta(){          
+  
+    if (vaaraArvaus==5){
+        System.out.println(" \n Hävisit pelin!");
+        
+    
+    }else{
+        System.out.println(" \n Voitit!");
+    }
 
-    return false;
+   
     
     }}

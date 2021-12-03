@@ -18618,7 +18618,7 @@ jäähdyke
 jäähdyte
 jäähdytellä
 jäähdytin
--jäähdytteinen
+jäähdytteinen
 jäähdyttely
 jäähdyttäjä
 jäähdyttämö
