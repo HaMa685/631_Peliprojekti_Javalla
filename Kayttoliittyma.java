@@ -15,7 +15,10 @@ public class Kayttoliittyma {
         
         System.out.println("Pelataanko Hirsipuuta?");
        
-        while(true) {           
+        while(true) {   
+            if(kirjaimet.loppu)  {
+                break;
+            }      
             System.out.println("Arvaa kirjain! ( ! - lopettaa pelin)");
             String kirjain = lukija.nextLine();
            

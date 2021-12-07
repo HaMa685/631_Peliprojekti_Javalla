@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Hirsipuu{
     int vaaraArvaus=0;
+    boolean loppu=false;
     private ArrayList <String> kirjaimet= new ArrayList<>();
     private ArrayList <String> vaaratkirjaimet= new ArrayList<>(); 
     
@@ -14,7 +15,7 @@ public class Hirsipuu{
     }
    
     public void tarkastaTulosta(String sana, String kirjain) { 
-        
+        int sanaOk=0;
         
     
         boolean oikeaArvaus=false;         
@@ -53,7 +54,7 @@ public class Hirsipuu{
         System.out.println("Väärät arvaukset ovat:"+this.vaaratkirjaimet+",   ");
     }
     int kirjainOk =0;
-    int sanaOk=0;
+    
     for (int i = 0; i < osat.length ; i++) {
         for(int a = 0; a < this.kirjaimet.size(); a++){
         if (osat[i].equals(this.kirjaimet.get(a))){
@@ -69,8 +70,12 @@ public class Hirsipuu{
         else{    
          System.out.print("_");
         }}
-        if(sanaOk==osat.length || vaaraArvaus==5){
-            lopeta();
+        if(sanaOk==osat.length){
+            System.out.println(" \n Voitit!");
+        loppu=true;}
+        if (vaaraArvaus==5){
+            System.out.println(" \n Hävisit pelin!");
+            loppu=true;           
             
 }
         
@@ -78,16 +83,4 @@ System.out.println();
 oikeaArvaus=false;
 }
 
-public void lopeta(){          
-  
-    if (vaaraArvaus==5){
-        System.out.println(" \n Hävisit pelin!");
-        
-    
-    }else{
-        System.out.println(" \n Voitit!");
-    }
-
-   
-    
-    }}
+}
