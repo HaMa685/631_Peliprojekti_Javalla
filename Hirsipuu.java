@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import java.io.PrintWriter;
+
 
 
 public class Hirsipuu{
@@ -7,16 +9,16 @@ public class Hirsipuu{
     boolean loppu=false;
     private ArrayList <String> kirjaimet= new ArrayList<>();
     private ArrayList <String> vaaratkirjaimet= new ArrayList<>(); 
-    
+    private PrintWriter tulostaja;
     public Hirsipuu (){
         this.kirjaimet=new ArrayList<>();
         this.vaaratkirjaimet=new ArrayList<>();
-        
+        tulostaja=System.console().writer();
     }
    
     public void tarkastaTulosta(String sana, String kirjain) { 
         int sanaOk=0;
-        
+        tulostaja.println(sana);
     
         boolean oikeaArvaus=false;         
         String[] osat=sana.split("");
@@ -40,7 +42,7 @@ public class Hirsipuu{
         System.out.println( "Arvasit oikein!");
         System.out.println("Vääriä arvauksia "+vaaraArvaus+"/5");
             
-                System.out.println("Väärät arvaukset ovat:"+this.vaaratkirjaimet+", ");}
+               tulostaja.println("Väärät arvaukset ovat:"+this.vaaratkirjaimet+", ");}
     
     if(oikeaArvaus==false){
         
@@ -51,7 +53,7 @@ public class Hirsipuu{
         System.out.println(" Arvasit väärin!");
         System.out.println("Vääriä arvauksia "+vaaraArvaus+"/5");
        
-        System.out.println("Väärät arvaukset ovat:"+this.vaaratkirjaimet+",   ");
+        tulostaja.println("Väärät arvaukset ovat:"+this.vaaratkirjaimet+",   ");
     }
     int kirjainOk =0;
     
@@ -64,7 +66,7 @@ public class Hirsipuu{
  
         
         if (kirjainOk==1){
-        System.out.print(osat[i]); 
+        tulostaja.print(osat[i]); 
             kirjainOk=0;
         }
         else{    
