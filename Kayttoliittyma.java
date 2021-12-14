@@ -22,12 +22,15 @@ public class Kayttoliittyma {
             }      
             System.out.println("Arvaa kirjain! ( ! - lopettaa pelin)");
             String kirjain = lukija.nextLine();
-            kirjaimet.tarkastaTulosta(sana,kirjain);       
-
+            
             if (kirjain.equals("!")) {                
                 System.out.println("Hei hei!");
                 break;
-            }           
+            }   
+
+            kirjaimet.tarkastaTulosta(sana,kirjain);       
+
+        
         }
     }
 }
