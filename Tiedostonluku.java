@@ -1,9 +1,7 @@
-import java.io.File;
 
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.ArrayList;
-
-
 
 public class Tiedostonluku {
     private ArrayList <String> sanat=new ArrayList<>();
@@ -13,9 +11,8 @@ public class Tiedostonluku {
         this.sanat=new ArrayList<>();
          }
     public String haeSana() {
-        
-        
-        try (Scanner lukija= new Scanner (new File("sanalista.txt"))) {
+                
+        try (Scanner lukija= new Scanner (Paths.get("sanalista.txt"),"utf-8")) {
 
             while (lukija.hasNextLine()) {
                 sanat.add(lukija.nextLine());
@@ -23,10 +20,9 @@ public class Tiedostonluku {
             }
         } catch (Exception e) {
             System.out.println("Virhe: " + e.getMessage());
-
-        
+       
     }
-    int indeksi=(int) (sanat.size()*Math.random());
+    int indeksi=(int)(sanat.size()*Math.random());
     return sanat.get(indeksi);
     
     }

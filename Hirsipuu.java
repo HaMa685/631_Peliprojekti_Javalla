@@ -1,8 +1,5 @@
 import java.util.ArrayList;
-
 import java.io.PrintWriter;
-
-
 
 public class Hirsipuu{
     int vaaraArvaus=0;
@@ -18,24 +15,16 @@ public class Hirsipuu{
    
     public void tarkastaTulosta(String sana, String kirjain) { 
         int sanaOk=0;
-        tulostaja.println(sana);
-    
+           
         boolean oikeaArvaus=false;         
         String[] osat=sana.split("");
         for(int i2= 0; i2 < osat.length; i2++){
-            if (osat[i2].equals(kirjain)){ 
-            
+            if (osat[i2].equals(kirjain)){             
             oikeaArvaus=true; 
-            i2=osat.length;
-             
-        }else {
-            
-            oikeaArvaus=false;
-            
-        }} 
-
-    
-
+            i2=osat.length;             
+        }else {            
+            oikeaArvaus=false;            
+        }}  
     if(oikeaArvaus==true){
         this.kirjaimet.add(kirjain);
         System.out.println();
@@ -48,11 +37,9 @@ public class Hirsipuu{
         
         this.vaaratkirjaimet.add(kirjain);
         vaaraArvaus++;
-
         System.out.println();
         System.out.println(" Arvasit väärin!");
-        System.out.println("Vääriä arvauksia "+vaaraArvaus+"/5");
-       
+        System.out.println("Vääriä arvauksia "+vaaraArvaus+"/5");       
         tulostaja.println("Väärät arvaukset ovat:"+this.vaaratkirjaimet+",   ");
     }
     int kirjainOk =0;
@@ -62,11 +49,9 @@ public class Hirsipuu{
         if (osat[i].equals(this.kirjaimet.get(a))){
              kirjainOk=1;
              sanaOk++;
-        }}
- 
-        
+        }}        
         if (kirjainOk==1){
-        tulostaja.print(osat[i]); 
+        System.out.print(osat[i]); 
             kirjainOk=0;
         }
         else{    
@@ -77,10 +62,8 @@ public class Hirsipuu{
         loppu=true;}
         if (vaaraArvaus==5){
             System.out.println(" \n Hävisit pelin!");
-            loppu=true;           
-            
-}
-        
+            loppu=true;        
+}      
 System.out.println();
 oikeaArvaus=false;
 }
