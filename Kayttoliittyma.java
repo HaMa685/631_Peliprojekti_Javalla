@@ -21,7 +21,8 @@ public class Kayttoliittyma {
                 break;
             }      
             System.out.println("Arvaa kirjain! ( ! - lopettaa pelin)");
-            String kirjain = lukija.nextLine();
+            String kirjain = lukija.nextLine().toLowerCase();
+
             
             if (kirjain.equals("!")) {                
                 System.out.println("Hei hei!");
