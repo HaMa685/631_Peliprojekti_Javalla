@@ -62,6 +62,7 @@ public class Hirsipuu{
         loppu=true;}
         if (vaaraArvaus==5){
             System.out.println(" \n Hävisit pelin!");
+            System.out.println(" \n Sana oli "+sana);
             loppu=true;        
 }      
 System.out.println();
