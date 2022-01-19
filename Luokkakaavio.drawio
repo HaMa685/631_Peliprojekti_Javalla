@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T07:48:47.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="zeoexol-EcYG6rLzb2UO" version="15.8.8" type="device"><diagram id="N5Ed9KdLZy4HbXOIfR6Z" name="Page-1">7Zptb6M4EMc/DS93xVNI8jIPe7e67ep6m+ye7tXKDU6YYjzImCb0068NpklKWNFrUPsCKYrweAzx/Mb+D1Ysb5Ec/hQkjb5iSJnl2uHB8paW6zq+61r6Y4dFZZnYfmXYCQiN09GwgkdqjLax5hDS7MxRIjIJ6blxg5zTjTyzESFwf+62RXb+1JTsaMOw2hDWtP4LoYzMLNzx0f6Zwi6qn+wE06onIbWzmUkWkRD3Jybvk+UtBKKsrpLDgjIdvDou1bg/WnqffpigXHYZ8P3uv2RJYLb+Bx9/BvSvu0kefzB3eSAsNxO+pQxSgfc0lvDzJsc4JjEhD4BmFrKoQyMw5yHVd7ctb76PQNJVSja6d6+SQdkimTDVctTlAxUSVFhnDHZc2SRqB/N01UcPrdNynoKlsoxiQqUolIsZ4JvwFufN/RHWuCYQnYAaB8ZITILsnu58jKG6MGF8QUjrjD+J6YpwwiCTpBHDbA8JI1y15lvkcmV6dMSIidRGBYKK1hBuImDhDSkw1zNTz9jEdWseoYBHdVtSU1DdQppF5gZnHis90rAUNFM+tzUD55npKzmcOd6QTBrDBhkjaQZ3T9NIiNgBn6OUmBinK1Afn1OfNqk70wvUHb836l6DuuXONeya/Ud5kA3+KgKy5CIwpgtkqEAvOVYJAYw9M9U5wehWtmZEphYh8N1N6bP0j5ZvJhDahGrslpX7UQRhSLmmiZJIUqHTnFIELstAjebqo0K3sD+OrJH64QvVdo5t9dHuQi6Qq7kQKClSlRd7qnOjG/LfLKdmIhjyKos7ka/9rg/evwD+GWUGJb2Kci0jzv9CnChYjB6ZrjXy5Qenwd1rcvcuMGbkjrJbzEAC6vuLyvcZ+zfDO3K74Z30RXfUsqxPtnS9xJVe8rLiSDGBjOrGsNKvmwpBxz1+0tsWHzRyYQ00xEwiZ3mcD+Lej7i7o67q3l9NN27ZBrZA9QvFTL+WFCkdVv3LV33wzvV9Muh7f3jfXN+nLQt7ppQcTfmulb3UenbhDW5Y4a9Mga667th97e6e3UiCzyAySPNB03vSdP/COc1l6qPeqDfPvgZNv86K9+zLufBeNN1rHtENmn41vG+t6V7bUdyaiFjLuH5nJ5xTmWtlj0HcE0j0K7vKN8+pNryTSz30b4ipHibIA8mzRvcPa+FZM7/6FqahjwOa3uucqTfGPEtylM0z9WFveWXyda0mpr3JSvM88EuVEIWU+mIeMAApi6ROk6HC6KPCCJyuFca4t1RoOzwcKoxX7wL+O68wmmeFQ4VxNbxvXmG0HQd+KbKi6FpT1LLAuSpKTgsI1YfRPWUJ+e34upIYto9r51fnIwnn5dKhmsf/fJR9J/+c8T79Ag==</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="N5Ed9KdLZy4HbXOIfR6Z" name="Page-1">
+        <mxGraphModel dx="1204" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-1" value="Peliprojekti_Luokkakaavio" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="40" width="720" height="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-22" value="Sanalista" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="180" width="190" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-23" value="+ sanalista.txt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-22" vertex="1">
+                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-22" vertex="1">
+                    <mxGeometry y="52" width="190" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-25" value="+ Lista sanoja, josta tiedostonluku&#10;arpoo sanan." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-22" vertex="1">
+                    <mxGeometry y="60" width="190" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-26" value="Tiedostonluku" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="250" width="190" height="134" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-26" vertex="1">
+                    <mxGeometry y="26" width="190" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-29" value="+ Arpoo sanan sanalista&#10;   -tiedostosta." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="UbYmDaiATQoz_6eJb8uk-26">
+                    <mxGeometry y="34" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-30" value="Hirsipuu" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="420" width="190" height="124" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-30" vertex="1">
+                    <mxGeometry y="26" width="190" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-33" value="+ Tarkistaa annetun kirjaimen&#10;&#10;+ Oikea ravaus&#10;+ Väärä arvaus&#10;+Tulostusmuoto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-30" vertex="1">
+                    <mxGeometry y="34" width="190" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-34" value="Käyttöliittymä" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="610" width="190" height="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-34" vertex="1">
+                    <mxGeometry y="26" width="190" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="UbYmDaiATQoz_6eJb8uk-37" value="+ Kysyy kirjaimen&#10;&#10;+ Käynnistää ohjelman&#10;&#10;+ Tulostus&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="UbYmDaiATQoz_6eJb8uk-34" vertex="1">
+                    <mxGeometry y="34" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Ohjelma" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="70" width="190" height="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="26" width="190" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="+ Käynnistää ohjelman" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="10">
+                    <mxGeometry y="34" width="190" height="110" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
